@@ -1,3 +1,16 @@
+import pandas as pd
+import numpy as np
+# import tensorflow as tf
+import os
+import random
+from scipy import stats
+import matplotlib.pyplot as plt
+from matplotlib import dates as d
+import datetime
+from datetime import date, timedelta
+import re
+
+
 # THIS BLOCK HAS ALL THE FUNCTIONS FOR DATA FILTERING FOR INDIVIDUAL WELLS
 
 def intersection(lst1, lst2):
